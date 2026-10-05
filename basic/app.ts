@@ -30,3 +30,21 @@ let n:null= null;
 // i naver assine a vlue couz i give null type
 let nn= null
 // i assine a null value 
+
+
+// interface 
+
+interface user1{
+    naam:string,
+    age:number,
+    city:string,
+    gender?:boolean
+}
+
+
+function abcd (obj:user1){
+console.log(obj.naam,obj.age,obj.city,obj.gender);
+
+}
+abcd({naam:'sam',age:22,city:"roorkee"})
+

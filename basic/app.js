@@ -20,4 +20,7 @@ naam1 = true;
 let n = null;
 // i naver assine a vlue couz i give null type
 let nn = null;
-// i assine a null value 
+function abcd(obj) {
+    console.log(obj.naam, obj.age, obj.city, obj.gender);
+}
+abcd({ naam: 'sam', age: 22, city: "roorkee" });
