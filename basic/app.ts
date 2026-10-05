@@ -40,11 +40,23 @@ interface user1{
     city:string,
     gender?:boolean
 }
+interface admin extends user1{
+    admin:boolean
+}
 
-
-function abcd (obj:user1){
-console.log(obj.naam,obj.age,obj.city,obj.gender);
+function abcd (obj:admin){
+console.log(obj.admin,obj.naam,obj.age,obj.city,obj.gender);
 
 }
-abcd({naam:'sam',age:22,city:"roorkee"})
+abcd({admin:true,naam:'sam',age:22,city:"roorkee",})
+
+// alianses 
+
+type str = string;
+type user2 ={
+    s:str
+}
+
+let naam3:str= 'sameer';
+
 

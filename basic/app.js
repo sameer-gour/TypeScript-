@@ -21,6 +21,7 @@ let n = null;
 // i naver assine a vlue couz i give null type
 let nn = null;
 function abcd(obj) {
-    console.log(obj.naam, obj.age, obj.city, obj.gender);
+    console.log(obj.admin, obj.naam, obj.age, obj.city, obj.gender);
 }
-abcd({ naam: 'sam', age: 22, city: "roorkee" });
+abcd({ admin: true, naam: 'sam', age: 22, city: "roorkee", });
+let naam3 = 'samer';
