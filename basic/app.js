@@ -24,4 +24,4 @@ function abcd(obj) {
     console.log(obj.admin, obj.naam, obj.age, obj.city, obj.gender);
 }
 abcd({ admin: true, naam: 'sam', age: 22, city: "roorkee", });
-let naam3 = 'samer';
+let naam3 = 'sameer';
