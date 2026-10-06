@@ -30,13 +30,13 @@ let fun5 = (age:string):void => {console.log(age);
 // Function Overloading ⭐
 
 function funn(value:string):string;
-function funn1(value:number):number;
+function funn(value:number):number;
 
-function getval(value:string| number) {
+function funn(value:string | number) {
     return value;
 }
-console.log(getval('sameer'));
-console.log(getval(25));
+console.log(funn('sameer'));
+console.log(funn(25));
 
 // real life use case 
 function combine(a: number, b: number): number;
